@@ -1,14 +1,10 @@
 //Variáveis de números inteiros
-//De -2,147,483,648 até 2,147,483,647
-int MyInt = 10;
-//De -9,223,372,036,854,775,808 até 9,223,372,036,854,775,807
-long MyLong = 646666666666661;
+int MyInt = 10; //De -2,147,483,648 até 2,147,483,647
+long MyLong = 646666666666661; //De -9,223,372,036,854,775,808 até 9,223,372,036,854,775,807
 
 //Variáveis de números decimais, se utilizam pontos e não vírgulas
-//Até 7 casas
-float MyFloat = 3,4;
-//Até 15 casas
-double MyDouble = 8.99;
+float MyFloat = 3,4; //Até 7 casas
+double MyDouble = 8.99; //Até 15 casas
 
 //Variáveis de letras, utilizam ' ' (aspas simples)
 char MyChar = 'A';
@@ -24,5 +20,5 @@ bool MyBoolFalse = true;
 
 //Para demonstrar variáveis
 Console.WriteLine()
-Console.WriteLine(MyString)
-//Outputs "Jeremias"
+Console.WriteLine(MyString) //Outputs "Jeremias"
+Console.WriteLine(MyString + MyString2) //Outputs "Jeremias Pedro"

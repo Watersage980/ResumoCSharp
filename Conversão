@@ -1,0 +1,10 @@
+//Automática
+char -> int -> long -> float -> double
+
+//Manual
+double -> float -> long -> int -> char
+
+//Exemplos de automática
+int MyInt = 9;
+double MyDouble = MyInt;
+Console.WriteLine(MyInt); //
