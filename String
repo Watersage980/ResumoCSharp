@@ -1,0 +1,30 @@
+//Tamanho
+string MyString = "gsfvweagrcvhcrgr";
+Console.WriteLine(MyString.Length); //Outputs 16
+
+//MAIÚSCULA
+Console.WriteLine(MyString.ToUpper());
+
+//minúscula
+Console.WriteLine(MyString.ToLower());
+
+//Concatenar
++ ou string.Concat;
+
+//Interpolar
+$"aaasf {MyString}";
+
+//Acessar
+Console.WriteLine(MyString[0]); //primeira letra
+Console.WriteLine(MyString.IndexOf("e")); //Outputs posição da letra "e"
+string lastName = name.Substring(charPos); // Get last name
+
+//Colocar na string
+\'	'	Single quote
+\"	"	Double quote
+\\	\	Backslash
+
+//Comandos especiais
+\n	New Line	
+\t	Tab	
+\b	Backspace
