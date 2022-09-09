@@ -7,4 +7,24 @@ double -> float -> long -> int -> char
 //Exemplos de automática
 int MyInt = 9;
 double MyDouble = MyInt;
-Console.WriteLine(MyInt); //
+Console.WriteLine(MyInt); //Outputs 9
+Console.WriteLine(MyDouble); //Outputs 9
+
+//Exemplos de manual
+double MyDouble = 9.78;
+int MyInt = (int) MyDouble;
+Console.WriteLine(MyDouble); //Outputs 9.78
+Console.WriteLine(MyInt); //Outputs 9
+
+//Metodos de conversão
+Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) e Convert.ToInt64 (long)
+int myInt = 10;
+double myDouble = 5.25;
+bool myBool = true;
+
+Console.WriteLine(Convert.ToString(myInt));    //Converte int para string
+Console.WriteLine(Convert.ToDouble(myInt));    //Converte int para double
+Console.WriteLine(Convert.ToInt32(myDouble));  //Converte double para int
+Console.WriteLine(Convert.ToString(myBool));   //Converte bool para string
+int.Parse(txtIdade.Text);
+idade.ToString();
