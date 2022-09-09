@@ -1,0 +1,48 @@
+//Operações aritiméticas
+//Soma
+int MyInt = 2, MyInt2 = 3; //Vírgula permite mais de uma variável para um mesmo tipo de dado
+Console.WriteLine(MyInt+MyInt2); //Outputs 5
+string MyString = "João", MyString2 ="Pedro";
+Console.WriteLine(MyString+" "+MyString2); //Outputs "João Pedro", (" ") cria espaço entre strings
+
+//Subtração
+int MyInt = 2, MyInt2 = 3;
+Console.WriteLine(MyInt2-MyInt); //Outputs 1
+
+//Multiplicação
+int MyInt = 2, MyInt2 = 3;
+Console.WriteLine(MyInt*MyInt2); //Outputs 6
+
+//Divisão
+int MyInt = 6, MyInt2 = 3;
+Console.WriteLine(MyInt/MyInt2); //Outputs 2
+
+//Resto da divisão
+int MyInt = 2, MyInt2 = 3;
+Console.WriteLine(MyInt2%MyInt2); //Outputs 1
+
+//Aumentar valor em 1
+int MyInt = 2;
+MyInt++
+Console.WriteLine(MyInt); //Outputs 3
+
+//Diminuir o valor em 1
+int MyInt = 2;
+MyInt--
+Console.WriteLine(MyInt); //Outputs 1
+
+/* x+=y é o mesmo que x = x + y,
+x-=y é o mesmo que x = x - y,
+x*=y é o mesmo que x = x * y,
+x/=y é o mesmo que x = x / y,
+x%=y é o mesmo que x = x % y,
+x&=y é o mesmo que x = x & y {esta operação as vezes tem o mesmo valor que x % (y+1), não usar sem garantia},
+x|=y é o mesmo que x = x | y {não sei o que é},
+x^=y é o mesmo que x = x ^ y,
+x<<=y é o mesmo que x = x << y {esta operação muda a posição do código binário na direção das setas pelo nume representado por y},
+x==y diz que x tem que ser igual a y,
+x!=y diz que x tem que ser diferente de y,
+>, <, >=, <=,
+&& operador lógico AND {ambos tem que ser verdadeiros},
+|| ^ operador lógico OR {um ou o outro for verdade}
+!() operador lógico NOT {negação}*/
