@@ -1,0 +1,14 @@
+//O maior valor
+Console.WriteLine(Math.Max(21,45)); //Outputs 45
+
+//O menor valor
+Console.WriteLine(Math.Min(21,45)); //Outputs 21
+
+//Raiz quadrada
+Console.WriteLine(Math.Sqrt(64)); //Outputs 8
+
+//Valor positivo
+Console.WriteLine(Math.Abs(-4.7)); //Outputs 4.7
+
+//Arredonda
+Console.WriteLine(Math.Round(5.59)); //Outputs 6
