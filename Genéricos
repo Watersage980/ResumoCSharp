@@ -1,0 +1,4 @@
+//Mostrar algo
+Console.WriteLine()
+//Ler a entrada do usuário
+Console.ReadLine()
