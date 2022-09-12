@@ -1,0 +1,71 @@
+//Loop if
+if (condition)
+{
+    string MyString = "Oi";
+}
+else if (condition2)
+{
+    string MyString = "Olá";
+}
+else
+{
+    string MyString = "Tadaema";
+}
+
+//Short if
+int time = 20
+string MyString = (time<18)?"Good day":"Good evening";
+
+//Loop switch
+int day = 4;
+switch (day) 
+{
+  case 1:
+    Console.WriteLine("Monday");
+    break;
+  case 2:
+    Console.WriteLine("Tuesday");
+    break;
+  case 3:
+    Console.WriteLine("Wednesday");
+    break;
+  case 4:
+    Console.WriteLine("Thursday");
+    break;
+  case 5:
+    Console.WriteLine("Friday");
+    break;
+  case 6:
+    Console.WriteLine("Saturday");
+    break;
+  case 7:
+    Console.WriteLine("Sunday");
+    break;
+}
+
+//Loop while
+while (condition)
+{
+  //Código
+}
+
+//DO while
+do 
+{
+  // code block to be executed
+}
+while (condition);
+
+//Loop for
+for (int i = 0; i < 5; i++) 
+{
+  Console.WriteLine(i);
+}
+
+//Foreach
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+foreach (string i in cars) 
+{
+  Console.WriteLine(i);
+}
+
