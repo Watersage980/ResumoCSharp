@@ -1,0 +1,3 @@
+//Criar arrays
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
